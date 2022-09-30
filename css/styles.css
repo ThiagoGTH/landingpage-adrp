@@ -11615,7 +11615,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/bg2.jpg");
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 30%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/bg7.png");
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11749,3 +11749,28 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(114,137,218);
+  border-radius: 5rem;
+}
+
+#preloader{
+  background: #000 url(/assets/img/loading.gif) no-repeat center center;
+  background-size: 16rem;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 2000;
+}
